@@ -1,0 +1,103 @@
+.logo{
+    display: inline;
+}
+nav{
+    display: flex;
+    padding: 5pt;
+    margin: 5pt;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 18pt;
+    padding: 5pt;
+    color:inherit;
+    text-decoration: none;
+    
+}
+@media screen and (max-width: 600px) {
+    nav{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    nav > img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1120px) {
+    a{
+        font-size: 14pt;
+    }
+    nav > img{
+        width: 200px;
+    }
+}
+
+.header-nav{
+    display: inherit;
+    position:relative;
+    background: none;
+    color: wheat;
+    cursor: pointer;
+    list-style-type: none;
+    
+}
+
+.header-nav:before, .header-nav::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: aqua;
+}
+
+.header-nav__elem{
+    display: block;
+    padding: 25px 80px;
+}
+/* Анимация границ
+.header-nav__elem::before, .header-nav::after{
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+}
+.header-nav:hover::before, .header-nav:hover::after{
+    width: 100%;
+}
+.header-nav:hover .header-nav__elem::before, .header-nav:hover .header-nav__elem::after{
+    height: 100%;
+}
+.nav-animation::before, .nav-animation::after{
+    transition-delay: 0.2s;
+}
+.nav-animation .header-nav__elem::before, .nav-animation .header-nav__elem::after{
+    transition-delay: 0s;
+}
+.nav-animation::before{
+    right: 0;
+    top: 0;
+}
+.nav-animation::after{
+    left: 0;
+    bottom: 0;
+}
+.nav-animation .header-nav__elem::before{
+    left: 0;
+    top: 0;
+}
+.nav-animation .header-nav__elem::after{
+    right: 0;
+    bottom: 0;
+}
+.nav-animation:hover::before, .nav-animation:hover::after{
+    transition-delay: 0s;
+}
+.nav-animation:hover .header-nav__elem::before, .nav-animation:hover .header-nav__elem::after{
+    transition-delay: 0.2s;
+}
+*/
