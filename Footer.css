@@ -1,3 +1,25 @@
-li {list-style-type:none}
-[class="footer-block-left"]{margin-left: 5cm;}
-[class="footer-block-right"]{margin-left: 15cm;margin-top: -2cm;}
+.container{
+    background-image:url("./assets/img/Footer.jpg");
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+.no_markers{
+    list-style-type:none;
+}
+.flex_container{
+    display: flex;
+    justify-content: space-around;
+}
+.call_back{
+    font-size: 25px;
+    background-image: url("./assets/img/Footer_call_back.jpg");
+    padding: 0px 20px 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blanchedalmond;
+}
+.foot_color{
+    color: blanchedalmond;
+}
