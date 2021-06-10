@@ -20,6 +20,6 @@ a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: blanchedalmond;
 }
-.foot_color{
-    color: blanchedalmond;
+footer>a{
+    color: rgb(255, 255, 255);
 }
