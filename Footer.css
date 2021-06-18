@@ -9,17 +9,29 @@ a{
 .no_markers{
     list-style-type:none;
 }
-.flex_container{
+.flex_container_mein{
     display: flex;
     justify-content: space-around;
+}
+.main_1{
+    background-image:url("./assets/img/Main_1.jpeg");
+    margin: 10px;
+    font-size: 50px;
+}
+.flex_container_footer{
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .call_back{
     font-size: 25px;
     background-image: url("./assets/img/Footer_call_back.jpg");
     padding: 0px 20px 5px 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: blanchedalmond;
 }
 .footer_a_color{
     color: blanchedalmond;
 }
+.footer_a_color:hover{
+    color: red;
+}
+
