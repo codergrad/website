@@ -1,0 +1,40 @@
+.fone{
+    background-image: url("./assets/img/fone_callback.jpg");
+}
+.flexbox_0{
+    display: flex;
+    justify-content: center;
+    margin: 0px 65px 10px 0px;
+}
+.flexbox_1{
+    display: flex;
+    justify-content: center;
+}
+.flexbox_2{
+display: flex;
+justify-content: center;
+margin: 20px 0px 0px 0px;
+}
+.flexbox_3{
+    display: flex;
+    justify-content: center;
+    margin: 0px 102px 0px 0px;
+}
+.flexbox_4{
+display: flex;
+justify-content: center;
+margin: 0px 166px 20px 0px;
+}
+.flexbox_5{
+display: flex;
+justify-content: center;
+}
+.flexbox_6{
+display: flex;
+justify-content: center;
+margin: 20px 77px 0px 0px;
+}
+.size{
+    height: 30px;
+    width: 200px;
+}
